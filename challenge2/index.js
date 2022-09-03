@@ -32,6 +32,3 @@ const fs = require('fs');
 //     console.log('File Deleted');
 // });
 
-fs.rmdir("Thapa", ()=> {
-    console.log("Folder Deleted");
-})
