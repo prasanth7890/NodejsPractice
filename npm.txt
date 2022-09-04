@@ -1,0 +1,22 @@
+what is npm?
+- npm or Node Package Manager is default package manager of js.
+It has many packages that can a dev use in their projects.
+
+- How to initialize?
+type npm init in root folder and enter.
+
+package.json is created but what is it contains?
+- package.json file basically contains the list of dependencies 
+that your project required. This file holds various metadata relavent to the project.
+
+
+how to install a npm package?
+- go to the npm website and find the package you desire
+- copy the command shown there
+- paste the command in terminal of root folder and hit enter
+- the moment you installed, new folders will be created for installed moduels in root folder
+
+
+how to use these installed packages?
+- just import them with using require 
+eg. const chalk = require('chalk');
