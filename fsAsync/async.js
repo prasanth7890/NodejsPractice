@@ -19,8 +19,9 @@ console.log("after the data");
 //      Async
 // asynchronous methods executes gives which output comes first 
 // irrespective of the order they called
-const data = fs.readFile('read.txt', 'utf-8', (err, data) => {
-    console.log(data);
+const data1 = fs.readFile('read.txt', 'utf-8', (err, data1) => {
+    console.log(data1);
+    console.log(err);
 });
 console.log('async testing');
 
